@@ -1,0 +1,72 @@
+/* Dracula Theme CSS */
+
+body {
+    background-color: #282a36;
+    color: #f8f8f2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #bd93f9;
+    text-align: center;
+}
+
+#complaints {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #44475a;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #6272a4;
+    border-radius: 5px;
+    background-color: #282a36;
+    color: #f8f8f2;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #50fa7b;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #50fa7b;
+    color: #282a36;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #40c463;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #6272a4;
+    color: #f8f8f2;
+    border-radius: 5px;
+}
